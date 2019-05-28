@@ -1,0 +1,262 @@
+@@font-face {
+    font-family: "Helvetica";
+    src: url(Helvetica.ttc);
+}
+.pt-6 {
+    padding-top: 5rem !important;
+}
+.pb-6 {
+    padding-bottom: 5rem !important;
+}
+.mt-6 {
+    margin-top: 5rem !important;
+}
+.mb-6 {
+    margin-bottom: 5rem !important;
+}
+.ml-7 {
+    margin-left: 11rem !important;
+}
+.btn:focus, .custom-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* font-family: "Fira Sans", sans-serif;  FONTE FIRA SANS */
+/* Botões e textos */
+h1, h2, h3, h4, h5 {
+    font-family: "Fira sans", sans-serif;
+    font-weight: bold;
+}
+.perguntas-header {
+    font-family: "Fira sans", sans-serif;
+    color: white;
+    padding: 1rem 1rem;
+}
+.font-btn, .font-navbar {
+    font-family: "Fira sans", sans-serif;
+}
+.font-paragrafo {
+    font-family: "Helvetica", sans-serif;
+    font-weight: 200;
+}
+
+/* NAVBAR */
+.cor-navbar.cor-viewport{
+    background-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(0,0,0);
+}
+.hover-verde {
+    transition: 0.2s ease-in-out;
+}
+.hover-verde:hover{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transform: scale(1.1);
+    background: rgb(65,175,150); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(65,175,150,1) 0%, rgba(60,200,110,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(65,175,150,1) 0%,rgba(60,200,110,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(65,175,150,1) 0%,rgba(60,200,110,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#navbarToggle > ul > li > a {
+    color: black;
+}
+#navbarToggle > ul > li > a:hover {
+    color: white;
+}
+.hover-grey:hover {
+    background-color: rgba(65,175,150,1);
+}
+#mudar-cor-navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.95); !important;
+  transition: background-color 200ms linear;
+}
+
+
+/* Container da história do se liga no enem na Paraíba */
+.historia-se-liga {
+    background-image: url("../images/mapaPb.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.primeiro-btn{
+    width: 15rem;
+    height: 3rem;
+    background-image: url("../images/icones/primeiro-btn.svg");
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    box-shadow: 0.1rem 0.2rem 0.4rem rgba(10,10,10, 0.2);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: 0.2s ease-in-out;
+}
+.primeiro-btn:hover {
+    transform: scale(1.1);
+}
+hr {
+    color: black;
+    border-width: 2px;
+}
+
+/* Perguntas e respostas sobre o se liga no enem */
+.fundo-verde-pr {
+    background-color: rgba(20,120,150,0.5);
+}
+.btn-pr-collapse {
+    color: white;
+}
+.ponteiro-pr {
+    width: 3rem;
+}
+.segundo-btn{
+    width: 15rem;
+    height: 3rem;
+    background-image: url("../images/icones/segundo-btn.svg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    box-shadow: 0.1rem 0.2rem 0.4rem rgba(10,10,10, 0.2);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: 0.2s ease-in-out;
+}
+.segundo-btn:hover {
+    transform: scale(1.1);
+}
+/* Parallax no background */
+.bg-parallax {
+    background-image: url("../images/icones/padrao-tam1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 50%;
+    overflow: hidden;
+}
+/* Ex-alunos */
+.bordas-gradient, .bordas-gradient-1 {
+    text-align: center;
+}
+.red-gr-img {
+    position: absolute;
+    top: 130rem;
+    left: -4rem;
+}
+
+.itens-middle {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-redacao {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+.img-escola {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.img-corretor, .img-alunos {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.img-plataforma {
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+.text-item-redacao {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+}
+.terceiro-btn{
+    width: 15rem;
+    height: 4rem;
+    background-image: url("../images/icones/segundo-btn.svg");
+    background-size: 145%;
+    background-repeat: no-repeat;
+    background-position: -6rem;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    box-shadow: 0.1rem 0.2rem 0.4rem rgba(10,10,10, 0.2);
+    border: 1px solid transparent;
+    border-radius: 0.4rem;
+    transition: 0.2s ease-in-out;
+}
+.terceiro-btn:hover {
+    transform: scale(1.1);
+}
+.rotacionar1 {
+    z-index: 1;
+}
+.divisor-paralax {
+    height: 0.7rem;
+    border: 0px;
+    margin: 0px;
+    background: rgb(65,175,150); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(65,175,150,1) 0%, rgba(60,200,110,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(65,175,150,1) 0%,rgba(60,200,110,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(65,175,150,1) 0%,rgba(60,200,110,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* Notícias, depoimentos e galeria */
+.borda-depoimento {
+    width: 57%;
+
+    position: absolute;
+    left: -5rem;
+}
+.text-depoimentos {
+    color: white;
+}
+.foto-depoimento {
+    width: 25%;
+    position: absolute;
+    right: 11rem;
+    top: -1rem;
+    border-radius: 10%;
+}
+.foto-depoimento.hide {
+    display: none;
+}
+.img-palestra {
+    width: 100%;
+}
+.galeria-bg {
+    background-image: url("../images/icones/galeria-bg.png");
+    background-repeat: no-repeat;
+}
+.ir-top {
+    height: 2.3rem;
+    margin-top: auto;
+    background-image: url("../images/icones/ponteiro-top.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.footer {
+    height: 4rem;
+    color: white;
+    text-align: center;
+}

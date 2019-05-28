@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Se Liga no Enem</title>
+
+        <!-- Embedded fontes -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
+
+        <!-- CSS Bootstrap e CSS personalizado -->
+        <link rel="stylesheet" href="bootstrap-min/bootstrap.min.css">
+        <link rel="stylesheet" href="css/master.css">
+
+        <!-- JQuery e Javascript Bootstrap e Javascript personalizado  -->
+        <script src="bootstrap-min/jquery-3.4.1.min.js" charset="utf-8"></script>
+        <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+        <script src="bootstrap-min/bootstrap.bundle.min.js" charset="utf-8"></script>
+        <script src="js/master.js" charset="utf-8"></script>
+    </head>
+    <body>
+
+    <div class="container-fluid p-0">
+
+        <!-- Navbar com colapso e ponto de quebra médio -->
+        <nav class="navbar fixed-top navbar-expand-md p-0 cor-navbar" id="mudar-cor-navbar">
+          <a class="navbar-brand invisible" href="#"></a>
+          <button class="navbar-toggler custom-toggler m-1" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav mr-1 mt-lg-0 font-navbar">
+              <li class="nav-item p-2 hover-verde hover-normal hover-grey">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item p-2 hover-verde hover-normal hover-grey">
+                <a class="nav-link" href="#">Inscrever-se</a>
+              </li>
+              <li class="nav-item p-2 hover-verde hover-normal hover-grey">
+                <a class="nav-link" href="#">Participar do Festival</a>
+              </li>
+              <li class="nav-item p-2 hover-verde hover-normal hover-grey">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <!-- Imagem de hero -->
+        <img src="images/heroenem.png" class="img-fluid mt-3" id="top-ancor" alt="Responsive image">
+
+
+        <!-- Conhecendo a história do se liga no enem na Paraíba -->
+        <div class="historia-se-liga h-auto pt-6">
+            <!-- Título -->
+            <div class="row col-md-11 offset-md-1 mt-6 mb-6">
+                <h2 class="m-2">A história do Se Liga no Enem na Paraíba</h2>
+            </div>
+
+            <!-- Textos informativos de cima -->
+            <div class="row">
+                <div class="col-md-3 offset-md-2">
+                    <p class="font-paragrafo m-2">Nasce um movimento que proporciona espaço para aprendizagem e trocas de experiências para o ENEM</p>
+                </div>
+                <div class="col-md-2 offset-md-1">
+                    <p class="font-paragrafo m-2">Mais de 5 mil alunos totalmente envolvidos</p>
+                </div>
+            </div>
+            <hr>
+            <!-- Textos informativos de baixo -->
+            <div class="row mt-5">
+                <div class="col-md-2 offset-md-4">
+                    <p class="font-paragrafo m-2"> 17 edições realizadas</p>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                    <p class="font-paragrafo m-2">Teremos 28 festivais confirmados, por toda a região paraibana, e já contamos com mais de 17 mil alunos inscritos</p>
+                </div>
+            </div>
+            <div class="row pb-6">
+                <div class="col-md-3 offset-md-7 col-8 offset-4">
+                    <a href="#" class="primeiro-link">
+                    <button type="button" class="primeiro-btn font-btn pl-2" name="Inscrever">Realizar Inscrição</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Conhecendo mais os festivais -->
+        <div class="bg-parallax">
+            <div class="conhecer-festival h-auto mt-4">
+                <div class="row col-md-11 offset-md-1 mb-5">
+                    <h2 class="m-2">Quer conhecer mais sobre os festivais e o Se Liga no Enem?</h2>
+                </div>
+
+                <!-- Menu colapsável -->
+                <div class="perguntas-repostas">
+                    <div class="row fundo-verde-pr mb-4">
+                        <div class="col-md-10 offset-md-2 perguntas-header">
+                            <button type="button" data-toggle="collapse" data-target="#collapsible1" class="btn p-0 btn-pr-collapse collapse-img-btn" name="button">
+                                <h5 class="m-2">Quantos festivais irão ser realizados?
+                                    <img src="images/icones/ponteiro-pr.png" class="img-fluid ponteiro-pr ponteiro-pr-0" alt="">
+                                </h5>
+                            </button>
+                            <div id="collapsible1" class="collapse col-md-7">
+                                <p> <b>R:</b> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                    erat volutpat. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row fundo-verde-pr mb-4">
+                        <div class="col-md-10 offset-md-2 perguntas-header">
+                            <button type="button" data-toggle="collapse" data-target="#collapsible2" class="btn p-0 btn-pr-collapse collapse-img-btn1" name="button">
+                                <h5 class="m-2">Onde os festivais vão estar?
+                                    <img src="images/icones/ponteiro-pr.png" class="img-fluid ponteiro-pr ponteiro-pr-1" alt="">
+                                </h5>
+                            </button>
+                            <div id="collapsible2" class="collapse col-md-7">
+                                <p> <b>R:</b> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                    erat volutpat. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row fundo-verde-pr mb-4">
+                        <div class="col-md-10 offset-md-2 perguntas-header">
+                            <button type="button" data-toggle="collapse" data-target="#collapsible3" class="btn p-0 btn-pr-collapse collapse-img-btn2" name="button">
+                                <h5 class="m-2">Quais as atividades dos festivais?
+                                    <img src="images/icones/ponteiro-pr.png" class="img-fluid ponteiro-pr ponteiro-pr-2" alt="">
+                                </h5>
+                            </button>
+                            <div id="collapsible3" class="collapse col-md-7">
+                                <p> <b>R:</b> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                    erat volutpat. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row fundo-verde-pr mb-4">
+                        <div class="col-md-10 offset-md-2 perguntas-header">
+                            <button type="button" data-toggle="collapse" data-target="#collapsible4" class="btn p-0 btn-pr-collapse collapse-img-btn3" name="button">
+                                <h5 class="m-2">Quais os dias dos festivais?
+                                    <img src="images/icones/ponteiro-pr.png" class="img-fluid ponteiro-pr ponteiro-pr-3" alt="">
+                                </h5>
+                            </button>
+                            <div id="collapsible4" class="collapse col-md-7">
+                                <p> <b>R:</b> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                    erat volutpat. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row fundo-verde-pr mb-4">
+                        <div class="col-md-10 offset-md-2 perguntas-header">
+                            <button type="button" data-toggle="collapse" data-target="#collapsible5" class="btn p-0 btn-pr-collapse collapse-img-btn4" name="button">
+                                <h5 class="m-2">Até quando posso me inscrever?
+                                    <img src="images/icones/ponteiro-pr.png" class="img-fluid ponteiro-pr ponteiro-pr-4" alt="">
+                                </h5>
+                            </button>
+                            <div id="collapsible5" class="collapse col-md-7">
+                                <p> <b>R:</b> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                    erat volutpat. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row fundo-verde-pr mb-4">
+                        <div class="col-md-10 offset-md-2 perguntas-header">
+                            <button type="button" data-toggle="collapse" data-target="#collapsible6" class="btn p-0 btn-pr-collapse collapse-img-btn5" name="button">
+                                <h5 class="m-2">O Se Liga no Enem na Escola
+                                    <img src="images/icones/ponteiro-pr.png" class="img-fluid ponteiro-pr ponteiro-pr-5" alt="">
+                                </h5>
+                            </button>
+                            <div id="collapsible6" class="collapse col-md-7">
+                                <p> <b>R:</b> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                    erat volutpat. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-6">
+                    <div class="col-md-3 offset-md-7 col-8 offset-4">
+                        <a href="#">
+                        <button type="button" class="font-btn segundo-btn mb-1" name="Inscrever">Realizar Inscrição</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Inscrições para ex-alunos -->
+            <div class="h-auto ex-alunos-section pt-5">
+                <div class="row col-md-11 offset-md-1 mb-4">
+                    <h2 class="m-2">O Se Liga no Enem para ex-alunos</h2>
+                </div>
+                <div class="row justify-content-md-center pt-4">
+                    <div class="col-md-2 p-3 bordas-gradient-1">
+                        <h5 class="mb-0">Nós contamos com mais de 1,7 mil vagas para ex-alunos</h5>
+                    </div>
+                    <div class="col-md-3 p-3 pl-0 pr-0 bordas-gradient">
+                        <h5 class="mb-0">As aulas podem ser nos modelos presenciais ou à distância</h5>
+                    </div>
+                    <div class="col-md-2 p-3 bordas-gradient-1">
+                        <h5 class="mb-0"> Realizamos 2 simulados, no meio e no fim do ano</h5>
+                    </div>
+                </div>
+
+                <!-- Núcleo de redação -->
+                <div class="row col-md-10 offset-md-2 pt-6 mb-5">
+                    <h3 class="m-2">Núcleo de Redação</h3>
+                </div>
+                <img src="images/red-gr1.png" class="img-fluid red-gr-img rotacionar1" alt="Gradiente de cores">
+                <img src="images/red-gr2.png" class="img-fluid red-gr-img rotacionar2" alt="Gradiente de cores">
+                <div class="row">
+                    <div class="col-md-2 offset-md-2 col-5 itens-middle">
+                        <img src="images/icones/redacao.svg" class="img-fluid img-redacao mb-2" alt="">
+                        <p class="font-paragrafo text-item-redacao">Uma redação ao mês</p>
+                    </div>
+                    <div class="col-md-2 col-5 itens-middle">
+                        <img src="images/icones/escola.svg" class="img-fluid img-escola mb-2" alt="">
+                        <p class="font-paragrafo text-item-redacao">412 escolas engajadas</p>
+                    </div>
+                    <div class="col-md-2 col-5 itens-middle">
+                        <img src="images/icones/redacao.svg" class="img-fluid img-redacao mb-2" alt="">
+                        <p class="font-paragrafo text-item-redacao">Um livro de redação</p>
+                    </div>
+                    <div class="col-md-2 col-5 itens-middle">
+                        <img src="images/icones/plataforma.svg" class="img-fluid img-plataforma mb-2" alt="">
+                        <p class="font-paragrafo text-item-redacao">Acesso à plataforma digital</p>
+                    </div>
+                </div>
+                <div class="row mt-4 mb-6">
+                    <div class=" col-md-2 offset-md-3 col-5 itens-middle">
+                        <img src="images/icones/corretor.svg" class="img-fluid img-corretor mb-2" alt="">
+                        <p class="font-paragrafo text-item-redacao">Bancas com corretores</p>
+                    </div>
+                    <div class="col-md-2 col-5 itens-middle">
+                        <img src="images/icones/30alunos.svg" class="img-fluid img-alunos mb-2" alt="">
+                        <p class="font-paragrafo text-item-redacao">30 mil alunos participantes</p>
+                    </div>
+                    <div class="col-md-3 ml-3 col-8 offset-3 pt-6">
+                        <a href="#">
+                            <button type="button" class="font-btn terceiro-btn pl-4" name="Inscrever">Também quero <br> me inscrever</button>
+                        </a>
+                    </div>
+                </div>
+                <hr class="divisor-paralax">
+            </div>
+        </div> <!-- Fechamento do paralax -->
+
+        <!-- Notícias, depoimentos e galeria-->
+        <div class="row col-md-11 offset-md-1 mb-4 mt-6">
+            <h2 class="m-2">Tudo de mais novo</h2>
+        </div>
+
+        <!-- Cards -->
+        <div class="row">
+            <div class="cards-noticias col-md-3 offset-md-2 p-4 bg-light">
+                <img src="images/thumbnail-noticias.png" class="card-img-top" alt="Estação">
+                <div class="cards-conteudo">
+                    <h5 class="card-titulo pt-2">1,7 mil vagas</h5>
+                    <p class="font-paragrafo" class="card-texto">
+                    São mais de 1.7 mil vagas para
+                    aqueles que concluíram o ensino
+                    médio pela rede estadual. Destas
+                    vagas, 720 são reservadsa às aulas
+                    presencias e 1050 para cursos
+                    Ensino à Distância (EAD)
+                    </p>
+                    <a href="#" class="btn btn-outline-dark float-right">ler mais...</a>
+                </div>
+            </div>
+            <div class="cards-noticias col-md-3 ml-2 p-4 bg-light">
+                <img src="images/thumbnail-noticias.png" class="card-img-top" alt="Estação">
+                <div class="cards-conteudo">
+                    <h5 class="card-titulo pt-2">1,7 mil vagas</h5>
+                    <p class="font-paragrafo" class="card-texto">
+                    São mais de 1.7 mil vagas para
+                    aqueles que concluíram o ensino
+                    médio pela rede estadual. Destas
+                    vagas, 720 são reservadsa às aulas
+                    presencias e 1050 para cursos
+                    Ensino à Distância (EAD)
+                    </p>
+                    <a href="#" class="btn btn-outline-dark float-right">ler mais...</a>
+                </div>
+            </div>
+            <div class="cards-noticias col-md-3 ml-2 p-4 bg-light">
+                <img src="images/thumbnail-noticias.png" class="card-img-top" alt="Estação">
+                <div class="cards-conteudo">
+                    <h5 class="card-titulo pt-2">1,7 mil vagas</h5>
+                    <p class="font-paragrafo" class="card-texto">
+                    São mais de 1.7 mil vagas para
+                    aqueles que concluíram o ensino
+                    médio pela rede estadual. Destas
+                    vagas, 720 são reservadsa às aulas
+                    presencias e 1050 para cursos
+                    Ensino à Distância (EAD)
+                    </p>
+                    <a href="#" class="btn btn-outline-dark float-right">ler mais...</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Depoimentos -->
+        <div class="bg-dark 5 p-5 mt-5 text-depoimentos">
+            <div class="row col-md-11 offset-md-1">
+                <h2>O que andam falando da gente</h2>
+            </div>
+            <div class="row">
+                <img src="images/icones/depoimentos-redor.png" class="img-fluid borda-depoimento" alt="bordas">
+                <div class="col-md-7 offset-md-1 col-12 mt-6">
+                    <p class="font-paragrafo">
+                        <b>Ricardo, 18 anos</b> <br> Lorem ipsum dolor sit amet, consectetuer adi<br>
+                        piscing  elit, sed diam nonummy nibheuismod<br> tincidunt ut  dolore magna aliquam erat.<br>
+                         Ut wisi enim ad minim veniam, quis nostrud<br> exerci tation ullamcorper  suscipit lobortis.
+                        <img src="images/icones/aluno-depoimento.png" class="img-fluid foto-depoimento" alt="Aluno">
+                    </p>
+                    <a href="#" class="float-right font-btn">
+                        <button type="button" class="btn btn-outline-light">Próximo aluno</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Galeria -->
+        <div class="galeria-bg mt-6">
+            <div class="row col-md-11 offset-md-1 pt-4 mb-5">
+                <h2 class="m-2">As nossas melhores lembranças </h2>
+            </div>
+            <div class="row p-4">
+                <div class="col-md-3 offset-md-2 col-10">
+                    <img src="images/galeria.png" class="img-fluid img-palestra" alt="Palestra">
+                </div>
+                <div class="col-md-2 icone-foto p-0 ml-3">
+                    <p class="font-paragrafo mb-0">Evento Guarabira</p>
+                    <p class="font-paragrafo">Setembro de 2018</p>
+                    <a href="#" class="font-btn">
+                    <button type="button" class="btn btn-outline-dark align-bottom btn-galeria">Ver galeria</button>
+                    </a>
+                </div>
+            </div>
+            <div class="row p-4">
+                <div class="col-md-3 offset-md-2 col-10">
+                    <img src="images/galeria.png" class="img-fluid img-palestra" alt="Palestra">
+                </div>
+                <div class="col-md-4 icone-foto p-0 ml-3">
+                    <p class="font-paragrafo mb-0">Evento João Pessoa</p>
+                    <p class="font-paragrafo">Maio de 2019</p>
+                    <a href="#" class="font-btn">
+                    <button type="button" class="btn mb-4 btn-outline-dark align-bottom btn-galeria">Ver galeria</button>
+                    </a>
+                </div>
+                <a class="font-btn ir-top pt-1" id="ir-top">
+                    <button type="button" class="btn">Ir ao topo</button>
+                </a>
+
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-12 bg-dark footer p-3 mt-4">
+                <p> &copy Copyright - Todos os direitos reservados</p>
+            </div>
+        </div>
+
+    </div> <!-- Fechando o containerfluid -->
+
+    </body>
+</html>
